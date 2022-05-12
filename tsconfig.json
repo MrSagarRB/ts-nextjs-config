@@ -23,7 +23,8 @@
             "@styles": ["src/styles"],
             "@redux/*": ["src/redux/*"],
             "@redux": ["src/redux"]
-        }
+        },
+        "incremental": true
     },
     "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
     "exclude": ["node_modules"]
